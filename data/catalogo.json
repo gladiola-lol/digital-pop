@@ -1,0 +1,292 @@
+{
+  "categories": [
+    {
+      "id": "cat-1775083402429",
+      "name": "AUTOS",
+      "icon": "star",
+      "description": ""
+    },
+    {
+      "id": "cat-1775083409670",
+      "name": "PEDICURE",
+      "icon": "star",
+      "description": ""
+    },
+    {
+      "id": "cat-1775095855866",
+      "name": "CASAS",
+      "icon": "star",
+      "description": ""
+    },
+    {
+      "id": "cat-1775095862454",
+      "name": "CORTE DE CABELLO",
+      "icon": "star",
+      "description": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "item-001",
+      "slug": "casa-fracc-la-mision",
+      "category": "cat-1775095855866",
+      "title": "CASA FRACC. LA MISION",
+      "subtitle": "Oportunidad unica",
+      "description": "Los mejores detalles para una casa nueva combinan funcionalidad, calidez y estilo personal, incluyendo toques prácticos como organizadores de cocina, toallas de baño, y velas aromáticas. Plantas resistentes (potos, sansevieria), espejos para ampliar espacios, y elementos decorativos como cuadros o tapetes de bienvenida son opciones ideales para crear un hogar acogedor.",
+      "images": [
+        "images/casa-fracc-la-mision-1.jpg",
+        "images/casa-fracc-la-mision-2.jpg",
+        "images/casa-fracc-la-mision-3.jpg"
+      ],
+      "image": "images/casa-fracc-la-mision-1.jpg",
+      "video": "https://youtu.be/jtBFxMOvAvk?si=i-I0T5Z8pWqhR4Lm",
+      "badge": "NUEVA",
+      "tags": [
+        "CASA",
+        "VENTA CASA"
+      ],
+      "price": null,
+      "priceLabel": "1,5000,000",
+      "priceOriginal": "2,500.000",
+      "duration": "3 MESES DE TRAMITE",
+      "features": [
+        "Una casa nueva destaca por ser una propiedad a estrenar con instalaciones modernas, acabados contemporáneos y alta eficiencia energética. Suelen incluir espacios abiertos, iluminación natural, cocinas integrales y materiales sostenibles. Son estructuras funcionales, seguras y diseñadas con líneas minimalistas para ofrecer máximo confort."
+      ],
+      "sku": "",
+      "stock": null,
+      "variants": [],
+      "location": "",
+      "area": "",
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking": null,
+      "propertyType": "",
+      "whatsappMessage": "HOLA me gustaria una cita!",
+      "cta": "Solicitar Cotización",
+      "buttons": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp"
+        },
+        {
+          "type": "call",
+          "label": "Llamar"
+        },
+        {
+          "type": "view",
+          "label": "Ver Detalles"
+        }
+      ]
+    },
+    {
+      "id": "item-002",
+      "slug": "tsuru-nissan-2018",
+      "category": "cat-1775083402429",
+      "title": "TSURU NISSAN 2018",
+      "subtitle": "Mexicano",
+      "description": "Una descripción efectiva para vender un auto debe ser honesta, concisa y destacar marca, modelo, año, kilometraje, transmisión y estado general. Incluye equipamiento especial (quemacocos, cámara), mantenimientos recientes y el motivo de venta para generar confianza, acompañando de fotos de alta calidad",
+      "images": [
+        "images/tsuru-nissan-2018-1.jpg",
+        "images/tsuru-nissan-2018-2.jpg",
+        "images/tsuru-nissan-2018-3.jpg"
+      ],
+      "image": "images/tsuru-nissan-2018-1.jpg",
+      "video": "https://youtube.com/shorts/DCIBrigzPhg?si=TrHXmA-FOnrsnS71",
+      "badge": "Nuevo",
+      "tags": [
+        "AUTO",
+        "NUEVO"
+      ],
+      "price": null,
+      "priceLabel": "650,000",
+      "priceOriginal": "800,000",
+      "duration": "ENTREGA 1 SEMANA",
+      "features": [
+        "✅MEXICANO",
+        "✅TODO PAGADO",
+        "✅ENTRE RAPIDA ENGANCHE 20%"
+      ],
+      "sku": "",
+      "stock": null,
+      "variants": [],
+      "location": "",
+      "area": "",
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking": null,
+      "propertyType": "",
+      "whatsappMessage": "Hola, me interesa el auto",
+      "cta": "Solicitar Cotización",
+      "buttons": [
+        {
+          "type": "quote",
+          "label": "Cotizar"
+        },
+        {
+          "type": "buy",
+          "label": "Comprar"
+        },
+        {
+          "type": "reserve",
+          "label": "Reservar"
+        }
+      ]
+    },
+    {
+      "id": "item-003",
+      "slug": "pedicure",
+      "category": "cat-1775083409670",
+      "title": "PEDICURE",
+      "subtitle": "GELISH",
+      "description": "La pedicura es un tratamiento cosmético y terapéutico integral para el cuidado, higiene y embellecimiento de los pies y uñas. Incluye limpieza, exfoliación, eliminación de durezas (callos), corte/limado de uñas, hidratación y esmaltado, mejorando la salud podal, la circulación y la textura de la pie",
+      "images": [
+        "images/pedicure-1.jpg",
+        "images/pedicure-2.jpg",
+        "images/pedicure-3.jpg",
+        "images/pedicure-4.jpg",
+        "images/pedicure-5.jpg"
+      ],
+      "image": "images/pedicure-1.jpg",
+      "video": "https://youtu.be/s4UQCEJMvkM?si=ZpL9CcJvqiDnanWC",
+      "badge": "Popular",
+      "tags": [
+        "PEDIRE",
+        "MANOS"
+      ],
+      "price": null,
+      "priceLabel": "450",
+      "priceOriginal": "650",
+      "duration": "45 minutos",
+      "features": [
+        "✅exfoliacion",
+        "✅productos de calidad",
+        "✅servicio expressHola, me interesa una cita"
+      ],
+      "sku": "",
+      "stock": null,
+      "variants": [],
+      "location": "",
+      "area": "",
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking": null,
+      "propertyType": "",
+      "whatsappMessage": "",
+      "cta": "Solicitar Reserva",
+      "buttons": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp"
+        },
+        {
+          "type": "info",
+          "label": "Más Info"
+        },
+        {
+          "type": "view",
+          "label": "Ver Detalles"
+        }
+      ]
+    },
+    {
+      "id": "item-004",
+      "slug": "corte-moja",
+      "category": "cat-1775095862454",
+      "title": "CORTE MOJA",
+      "subtitle": "Estilo moja",
+      "description": "Un corte de cabello es la modificación del estilo, longitud y forma del pelo, utilizando herramientas como tijeras, navajas o máquinas de afeitar. Más que un cambio estético, es una expresión personal que combina diseño, textura y volumen para enmarcar el rostro, mejorar la autoestima y transmitir una imagen específica",
+      "images": [
+        "images/corte-moja-1.jpg",
+        "images/corte-moja-2.jpg",
+        "images/corte-moja-3.jpg"
+      ],
+      "image": "images/corte-moja-1.jpg",
+      "video": "",
+      "badge": "Popular",
+      "tags": [
+        "corte cabello",
+        "corte hombre"
+      ],
+      "price": null,
+      "priceLabel": "250",
+      "priceOriginal": "",
+      "duration": "30 minutos",
+      "features": [
+        "✅Agendar cita",
+        "✅incluye facial y exfoliacion",
+        "✅incluye crema profesional"
+      ],
+      "sku": "",
+      "stock": null,
+      "variants": [],
+      "location": "",
+      "area": "",
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking": null,
+      "propertyType": "",
+      "whatsappMessage": "Hola, me interesa agendar!",
+      "cta": "Solicitar Cita",
+      "buttons": [
+        {
+          "type": "reserve",
+          "label": "Reservar"
+        },
+        {
+          "type": "view",
+          "label": "Ver Detalles"
+        }
+      ]
+    },
+    {
+      "id": "item-005",
+      "slug": "balagaye",
+      "category": "cat-1775095862454",
+      "title": "BALAGAYE",
+      "subtitle": "+ HIDRATACION SERUM",
+      "description": "El balayage es una técnica de coloración francesa, cuyo nombre significa \"barrer\", que crea un degradado suave y natural desde una raíz más oscura hasta puntas claras. Se aplica a mano alzada para un efecto \"sunkissed\" (besado por el sol) personalizado, brindando luminosidad, volumen y bajo mantenimiento sin líneas de crecimiento marcadas",
+      "images": [
+        "images/balagaye-1.jpg",
+        "images/balagaye-2.jpg",
+        "images/balagaye-3.jpg"
+      ],
+      "image": "images/balagaye-1.jpg",
+      "video": "https://youtu.be/oJAfFbw3CUM?si=QJs_TAlxbKoI-TJF",
+      "badge": "Popular",
+      "tags": [
+        "BALAYAGE",
+        "CABELLO MUJER"
+      ],
+      "price": null,
+      "priceLabel": "3500",
+      "priceOriginal": "3850",
+      "duration": "8 HORAS",
+      "features": [
+        "✅Incluye serum de hidratacion",
+        "✅Cualquier largo",
+        "✅Opciones adicionales"
+      ],
+      "sku": "",
+      "stock": null,
+      "variants": [],
+      "location": "",
+      "area": "",
+      "bedrooms": null,
+      "bathrooms": null,
+      "parking": null,
+      "propertyType": "",
+      "whatsappMessage": "Hola me gustaria saber mas del balayage!",
+      "cta": "Solicitar Cotización",
+      "buttons": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp"
+        },
+        {
+          "type": "info",
+          "label": "Más Info"
+        }
+      ]
+    }
+  ]
+}
