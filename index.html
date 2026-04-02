@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta (inyectados dinÃ¡micamente por JS) -->
+  <title>CatÃ¡logo Digital</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+
+  <!-- Google Fonts (inyectado dinÃ¡micamente) -->
+  <link id="google-fonts-link" rel="stylesheet" href="">
+
+  <!-- Engine Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       HEADER â NavegaciÃ³n Global
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <header class="header" id="header" role="banner">
+    <div class="header__inner">
+      <a href="#" class="header__brand" aria-label="Inicio">
+        <img class="header__logo" id="header-logo" src="" alt="Logo" loading="lazy">
+        <span class="header__name" id="header-name"></span>
+      </a>
+
+      <div class="header__actions">
+        <nav class="header__social-links" id="header-socials" aria-label="Redes sociales">
+          <!-- Inyectado por JS -->
+        </nav>
+
+        <a class="header__location" id="header-location" href="" target="_blank" rel="noopener noreferrer" aria-label="UbicaciÃ³n" style="display:none">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span id="header-location-text"></span>
+        </a>
+
+        <a class="header__phone" id="header-phone" href="" aria-label="TelÃ©fono">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span id="header-phone-text"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       HERO â SecciÃ³n Principal
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <section class="hero" id="hero" role="banner">
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+    <div class="hero__content">
+      <img class="hero__logo" id="hero-logo" src="" alt="" loading="lazy">
+      <h1 class="hero__title" id="hero-title"></h1>
+      <p class="hero__subtitle" id="hero-subtitle"></p>
+    </div>
+  </section>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       TOOLBAR â BÃºsqueda y Filtros
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <section class="toolbar" id="toolbar">
+    <div class="container toolbar__inner">
+      <div class="search-box" id="search-container">
+        <span class="search-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </span>
+        <input
+          type="search"
+          class="search-box__input"
+          id="search-input"
+          placeholder="Buscar..."
+          autocomplete="off"
+          aria-label="Buscar en el catÃ¡logo"
+        >
+      </div>
+
+      <div class="filter-chips" id="filter-chips" role="tablist" aria-label="Filtrar por categorÃ­a">
+        <!-- Inyectado por JS -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       CATALOG â Contenedor de Ãtems
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <main class="catalog" id="catalog" role="main">
+    <div class="container">
+      <header class="catalog__header anim-enter">
+        <h2 class="catalog__title" id="catalog-title"></h2>
+        <p class="catalog__subtitle" id="catalog-subtitle"></p>
+      </header>
+
+      <div class="catalog__grid anim-stagger" id="catalog-grid">
+        <!-- Cards inyectadas por JS -->
+      </div>
+    </div>
+  </main>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       MODAL â Detalle de Ãtem
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <article class="modal" id="modal">
+      <button class="modal__close" id="modal-close" aria-label="Cerrar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+
+      <div class="modal__image-wrapper">
+        <img class="modal__image" id="modal-image" src="" alt="" loading="lazy">
+      </div>
+
+      <div class="modal__body">
+        <p class="modal__category" id="modal-category"></p>
+        <h2 class="modal__title" id="modal-title"></h2>
+        <p class="modal__price" id="modal-price"></p>
+        <p class="modal__description" id="modal-description"></p>
+
+        <!-- Meta info (duraciÃ³n, etc.) -->
+        <div class="modal__meta" id="modal-meta"></div>
+
+        <!-- Real Estate specific meta -->
+        <div class="modal__realestate-meta" id="modal-realestate" style="display:none;"></div>
+
+        <!-- Video embed -->
+        <div class="modal__video" id="modal-video" style="display:none;"></div>
+
+        <!-- Features list -->
+        <div class="modal__features" id="modal-features">
+          <h3 class="modal__features-title">Incluye:</h3>
+          <ul class="modal__features-list" id="modal-features-list"></ul>
+        </div>
+
+        <!-- QR Code -->
+        <div class="modal__qr" id="modal-qr">
+          <p class="modal__qr-title" id="modal-qr-title"></p>
+          <canvas id="modal-qr-canvas"></canvas>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="modal__actions" id="modal-actions"></div>
+      </div>
+    </article>
+  </div>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       WHATSAPP FAB
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <a class="whatsapp-fab" id="whatsapp-fab" href="" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.924 15.924 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.336 22.594c-.39 1.1-1.932 2.014-3.164 2.28-.844.18-1.946.324-5.66-1.216-4.752-1.97-7.81-6.79-8.046-7.104-.228-.314-1.862-2.482-1.862-4.734 0-2.252 1.178-3.358 1.596-3.82.39-.43.916-.614 1.22-.614.152 0 .288.008.41.014.418.018.628.042.904.7.346.824 1.188 2.904 1.292 3.116.106.212.204.49.068.784-.126.3-.23.486-.444.746-.212.262-.438.584-.626.784-.212.228-.434.476-.186.934.248.456 1.1 1.816 2.366 2.942 1.628 1.448 2.998 1.898 3.426 2.108.346.172.618.144.856-.086.244-.266 1.048-1.218 1.328-1.636.274-.418.552-.346.928-.208.38.138 2.404 1.134 2.816 1.34.412.208.686.312.786.486.1.172.1 1.004-.29 2.104z"/></svg>
+  </a>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       FOOTER
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__brand" id="footer-brand"></p>
+      <div class="footer__location" id="footer-location" style="display:none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span id="footer-location-text"></span>
+      </div>
+      <nav class="footer__social" id="footer-socials" aria-label="Redes sociales">
+        <!-- Inyectado por JS -->
+      </nav>
+      <p class="footer__text" id="footer-text"></p>
+    </div>
+  </footer>
+
+
+  <!-- âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+       SCRIPTS
+       âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+  <script src="js/config.js"></script>
+<script>if(typeof CATALOG_CONFIG!=="undefined"&&CATALOG_CONFIG.templateId){document.body.classList.add("tpl-"+CATALOG_CONFIG.templateId);}</script>
+  
+  
+  
+  
+  
+  <script src="js/app.js"></script>
+
+</body>
+</html>
